@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Palavras, CategoriaPalavra
+from .models import Palavra, CategoriaPalavra
 
-admin.site.register(Palavras)
+admin.site.register(Palavra)
 admin.site.register(CategoriaPalavra)
