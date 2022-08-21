@@ -20,7 +20,7 @@ from API_REST.api.viewsets import PalavraViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'palavras', PalavraViewSet)
+router.register(r'palavra', PalavraViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
