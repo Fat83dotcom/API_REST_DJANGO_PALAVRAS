@@ -12,6 +12,7 @@ markdown = "*"
 django-filter = "*"
 gunicorn = "*"
 django-heroku = "*"
+whitenoise = "*"
 
 [dev-packages]
 mypy = "*"
