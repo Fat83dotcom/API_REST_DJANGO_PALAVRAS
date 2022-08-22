@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-27_cufz85+e+7dcmlv1x-0m@x$g#@sqmal4_=)2b@5e+svgg-o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.5', '127.0.0.1', 'https://api-palavra.herokuapp.com/']
+ALLOWED_HOSTS = ['https://api-palavra.herokuapp.com/']
 
 
 # Application definition
@@ -111,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-BR'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
