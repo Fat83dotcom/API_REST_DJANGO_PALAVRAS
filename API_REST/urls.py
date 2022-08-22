@@ -4,7 +4,7 @@ from .api import viewsets
 
 
 router = DefaultRouter()
-router.register('palavra-chave', viewsets.PalavraViewSet)
+router.register('palavra', viewsets.PalavraViewSet)
 
 urlpatterns = [
     path('', include(router.urls))
