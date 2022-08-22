@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-27_cufz85+e+7dcmlv1x-0m@x$g#@sqmal4_=)2b@5e+svgg-o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://api-palavra.herokuapp.com/']
 
@@ -55,7 +55,7 @@ MIDDLEWARE = [
 
 ]
 
-ROOT_URLCONF = 'API.urls'
+ROOT_URLCONF = 'API_REST.urls'
 
 TEMPLATES = [
     {
