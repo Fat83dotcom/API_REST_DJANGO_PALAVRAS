@@ -13,6 +13,7 @@ django-filter = "*"
 gunicorn = "*"
 django-heroku = "*"
 whitenoise = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 mypy = "*"
